@@ -1,4 +1,6 @@
-﻿namespace Logic
+﻿using Logic.Atributs;
+
+namespace Logic
 {
 	public class Constitution : Atribute
 	{

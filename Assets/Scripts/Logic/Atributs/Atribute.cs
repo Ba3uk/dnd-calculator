@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Logic
+namespace Logic.Atributs
 {
 	public abstract class Atribute
 	{

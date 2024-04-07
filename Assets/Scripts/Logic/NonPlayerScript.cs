@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Logic.Atributs;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Logic

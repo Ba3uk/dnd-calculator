@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Logic.Atributs;
+using UnityEngine;
 
 namespace Logic
 {

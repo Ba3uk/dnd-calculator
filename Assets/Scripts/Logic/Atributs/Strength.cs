@@ -1,4 +1,4 @@
-﻿namespace Logic
+﻿namespace Logic.Atributs
 {
 	public class Strength : Atribute
 	{

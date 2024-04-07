@@ -1,4 +1,6 @@
-﻿namespace Logic
+﻿using Logic.Atributs;
+
+namespace Logic
 {
 	public interface IAttack // как лучше добавить "инвентарь" атак персонажу? List<IAttack>?
 	{
