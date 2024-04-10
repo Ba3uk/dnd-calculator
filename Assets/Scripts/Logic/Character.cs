@@ -22,7 +22,7 @@ namespace Logic
 		public Abilities Abilities { get; set; }
 
 		public string
-			Title { get; set; } // оставить это поле Name или нужно его переименовать, т.к. в юнити у объектов monobehavior тоже есть такое поле?
+			Title { get; set; } 
 
 		public List<ICondition> Conditions { get; set; }
 
@@ -37,12 +37,12 @@ namespace Logic
 			Health = MaxHealth;
 		}
 
-		public abstract void AttackRoll(int Dice, Atribute Atribute, IAttack Attack); // нужно уже переходить на ивенты я думаю? !!!
+		public abstract void AttackRoll(int Dice, Atribute Atribute, IAttack Attack); 
 		public abstract void SaveRoll(int Dice, int Difficulty, Atribute Atribute);
 		public abstract void DamageRoll(IAttack Attack);
 
 		public virtual void
-			TakeDamage(int Damage) //Лучше сделать учет сопротивления урону в методе класса-получателя урона или в методе класса атаки?
+			TakeDamage(int Damage) 
 		{
 			Health -= Damage;
 

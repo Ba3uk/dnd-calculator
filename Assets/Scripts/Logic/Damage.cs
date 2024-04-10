@@ -90,7 +90,7 @@ namespace Logic
 		}
 	}
 
-	public class DiceProvider
+	/*public class DiceProvider
 	{
 		private Dictionary<int, Dice> _diceMap;
 
@@ -105,5 +105,5 @@ namespace Logic
 			_diceMap.Add(DiceFacesCount, newDice);
 			return newDice;
 		}
-	}
+	}*/
 }
