@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Logic
 {
-	public enum DamageType
+    public enum DamageType
 	{
 		None = 0,
 		Slashing = 1,

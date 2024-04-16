@@ -2,7 +2,7 @@
 
 namespace CompositeLogic
 {
-	public class Character
+    public class Character
 	{
 		public readonly IHealth Health;
 		public readonly IInventory Inventory;
@@ -24,7 +24,7 @@ namespace CompositeLogic
 		}
 	}
 
-	public class NormalCharacterFactory
+	public class NormalCharacterFactory // а не должны быть статичными?
 	{
 		public Character Create(int currentHealthValue, int maxValue)
 		{

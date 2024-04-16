@@ -1,6 +1,6 @@
 ﻿namespace Logic
 {
-	public class Equipment : Item // как реализовать добавление статов персонажу при надевании экипировки?
+    public class Equipment : Item // как реализовать добавление статов персонажу при надевании экипировки?
 	{
 		public bool isEquipped { get; set; }
 

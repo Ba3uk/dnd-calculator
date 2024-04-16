@@ -1,6 +1,6 @@
 ﻿namespace CompositeLogic.Health
 {
-	public interface IHealth
+    public interface IHealth
 	{
 		public int CurrentValue { get; }
 		public int MaxValue { get; }

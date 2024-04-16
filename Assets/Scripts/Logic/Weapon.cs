@@ -1,6 +1,6 @@
 ﻿namespace Logic
 {
-	public class Weapon : Equipment // палка для стат, не должна сама уметь атаковать, используется для передачи параметров в martialattack
+    public class Weapon : Equipment // палка для стат, не должна сама уметь атаковать, используется для передачи параметров в martialattack
 	{
 		public Damage Damage { get; set; } // что делать если мне нужно несколько кубиков за каждую атаку? делать массив уронов и складвыать значения?
 

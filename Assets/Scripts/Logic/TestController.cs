@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Logic
 {
-	public class TestController : MonoBehaviour
+    public class TestController : MonoBehaviour
 	{
 		playerScript player = new playerScript("Alex",
 			new Abilities(new Strength(18),

@@ -1,6 +1,6 @@
 ﻿namespace DecorateLogic.HealthModule
 {
-	public class NormalHealth : IHealth
+    public class NormalHealth : IHealth
 	{
 		public int CurrentValue { get; private set; }
 		public int MaxValue { get; private set; }

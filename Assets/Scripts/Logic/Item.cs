@@ -3,7 +3,7 @@
 //[CreateAssetMenu(fileName ="ItemData", menuName ="Inventory/Items")] : ScriptableObject
 namespace Logic
 {
-	public class Item
+    public class Item
 	{
 		public string Title { get; set; }
 		public int Id { get; set; }

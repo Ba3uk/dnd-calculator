@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Logic
 {
-	class MartialAttack<TAttribute> : IAttack
+    class MartialAttack<TAttribute> : IAttack
 		where TAttribute : Atribute
 	{
 		public Weapon Weapon { get; set; }

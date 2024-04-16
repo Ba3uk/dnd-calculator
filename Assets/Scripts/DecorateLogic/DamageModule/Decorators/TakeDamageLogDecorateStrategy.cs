@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace DecorateLogic.DamageModule.Decorators
 {
-	public class TakeDamageLogDecorateStrategy : ITakeDamageStrategy
+    public class TakeDamageLogDecorateStrategy : ITakeDamageStrategy
 	{
 		private readonly ITakeDamageStrategy _innerTakeDamageStrategy;
 		private readonly HealthProvider _healthProvider;

@@ -2,7 +2,7 @@
 
 namespace Logic
 {
-	public class BattleController
+    public class BattleController
 	{
 		public List<Character> Initiative { get; set; }
 	}

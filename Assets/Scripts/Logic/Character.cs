@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Logic
 {
-	public abstract class Character
+    public abstract class Character
 	{
 		public int Health
 		{

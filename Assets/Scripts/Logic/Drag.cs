@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Logic
 {
-	public class Drag : MonoBehaviour
+    public class Drag : MonoBehaviour
 	{
 		public Vector3 MousePosition { get; set; }
 		public Transform Dragging { get; set; }

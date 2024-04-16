@@ -1,6 +1,6 @@
 ﻿namespace DecorateLogic.HealthModule
 {
-	public interface IHealth
+    public interface IHealth
 	{
 		public int CurrentValue { get; }
 		public int MaxValue { get; }

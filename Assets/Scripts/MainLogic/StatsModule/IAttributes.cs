@@ -11,6 +11,5 @@ namespace Assets.Scripts.MainLogic.StatsModule
         public Charisma charisma { get; }
         public Wisdom wisdom { get; }
 
-        
     }
 }

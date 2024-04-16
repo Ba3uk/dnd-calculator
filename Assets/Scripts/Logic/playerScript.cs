@@ -6,7 +6,7 @@ namespace Logic
 
 
 {
-	public class playerScript : Character
+    public class playerScript : Character
 	{
 		public playerScript(string Title, Abilities Abilities, int ClassHealthMultiplier)
 			: base(Title, Abilities, ClassHealthMultiplier) { }

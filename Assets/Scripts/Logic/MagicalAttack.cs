@@ -2,7 +2,7 @@
 
 namespace Logic
 {
-	public class MagicalAttack : IAttack
+    public class MagicalAttack : IAttack
 	{
 		public Damage Damage { get; set; }
 		public Character Target { get; set; }

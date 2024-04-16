@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Logic
 {
-	public class NonPlayerScript : Character
+    public class NonPlayerScript : Character
 	{
 		public NonPlayerScript(string Title, Abilities Abilities, int ClassHealthMultiplier)
 			: base(Title, Abilities, ClassHealthMultiplier)

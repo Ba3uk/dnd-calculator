@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using Assets.Scripts.MainLogic.AttackModule;
+using System.Collections.Generic;
 
-namespace Assets.Scripts.MainLogic.AttackModule
+namespace Assets.Scripts.MainLogic
 {
-    public class SingleTargetAttack : IAttack
+    public class SingleTargetAttacWithSave<TAttribute> : IAttack where TAttribute : StatsModule.Attribute  // можно ли сделать это не обязательным пунктом? имею ввиду <TAttribute> или лучше сделать отдельным классом?
     {
         public readonly TakeDamageController _takeDamageController;
         public List<Damage> damages { get; } // разделить ли атаки у которых лишь один инстанс урона от атак с несколькими?
@@ -10,7 +11,7 @@ namespace Assets.Scripts.MainLogic.AttackModule
         public Character target { get; } // перенести как параметр attackAction?
 
 
-        public SingleTargetAttack(TakeDamageController takeDamageController, List<Damage> damages, Character initiator, Character target)
+        public SingleTargetAttacWithSave(TakeDamageController takeDamageController, List<Damage> damages, Character initiator, Character target)
         {
             _takeDamageController = takeDamageController;
 
@@ -34,5 +35,3 @@ namespace Assets.Scripts.MainLogic.AttackModule
         // атака с наложением эффекта
     }
 }
-
-

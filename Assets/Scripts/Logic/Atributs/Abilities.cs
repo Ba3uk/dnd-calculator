@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Logic.Atributs
 {
-	public class Abilities
+    public class Abilities
 	{
 		public Strength Strength { get; set; }
 		public Dexterity Dexterity { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace Logic
 {
-	public class DamageOverTimeCondition : ICondition
+    public class DamageOverTimeCondition : ICondition
 	{
 		public string Title { get; set; }
 		public string Description { get; set; }

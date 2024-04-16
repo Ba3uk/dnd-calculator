@@ -1,6 +1,6 @@
 ﻿namespace CompositeLogic
 {
-	public interface IInventory { }
+    public interface IInventory { }
 
 	public class Inventory : IInventory { }
 }

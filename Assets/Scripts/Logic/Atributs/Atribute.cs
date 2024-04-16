@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Logic.Atributs
 {
-	public abstract class Atribute
+    public abstract class Atribute
 	{
 		public int Value { get; set; }
 		public int SaveModifier { get; set; }

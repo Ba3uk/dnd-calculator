@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Assets.Scripts.MainLogic
+﻿namespace Assets.Scripts.MainLogic
 {
     public interface IHealth
     {
@@ -14,7 +8,7 @@ namespace Assets.Scripts.MainLogic
 
         public void TakeDamage(Damage damage);
         //public void Heal(int healingValue); void на будущее, скорее всего будет испльзоваться
-        public void Death();
+        //public void Death(); мб сделать отдельным классом
 
     }
 }

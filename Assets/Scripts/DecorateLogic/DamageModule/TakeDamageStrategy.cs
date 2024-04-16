@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace DecorateLogic.DamageModule
 {
-	public class TakeDamageStrategy : ITakeDamageStrategy
+    public class TakeDamageStrategy : ITakeDamageStrategy
 	{
 		private readonly HealthProvider _healthProvider;
 

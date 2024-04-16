@@ -1,6 +1,6 @@
 ﻿namespace Logic
 {
-	public interface
+    public interface
 		ICondition // как реализовывать подобные штуки? статус-эффекты и другие дебаффы (возможно пофиксится само-собой когда у меня появится походовая система боя)
 	{
 		public string Title { get; set; }

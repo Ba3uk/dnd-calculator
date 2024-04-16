@@ -1,6 +1,6 @@
 ﻿namespace DecorateLogic
 {
-	public class Character
+    public class Character
 	{
 		public int ID;
 		public string Name;

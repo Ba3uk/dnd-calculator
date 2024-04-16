@@ -3,7 +3,7 @@ using DecorateLogic.HealthModule;
 
 namespace DecorateLogic
 {
-	public class NormalCharacterFactory
+    public class NormalCharacterFactory
 	{
 		private static int lastId;
 		private readonly HealthProvider _healthProvider;

@@ -1,6 +1,6 @@
 ﻿namespace CompositeLogic.Health
 {
-	public class HealthWithShield : IHealth
+    public class HealthWithShield : IHealth
 	{
 		public int CurrentValue { get; private set; }
 		public int MaxValue { get; }

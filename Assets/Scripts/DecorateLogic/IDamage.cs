@@ -1,6 +1,6 @@
 ﻿namespace DecorateLogic
 {
-	public interface IDamage
+    public interface IDamage
 	{
 		
 	}

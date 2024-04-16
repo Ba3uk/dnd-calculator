@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace DecorateLogic.HealthModule
 {
-	public class GenericProvider<TKey, TComponent>
+    public class GenericProvider<TKey, TComponent>
 	{
 		protected Dictionary<TKey, TComponent> _healths;
 
